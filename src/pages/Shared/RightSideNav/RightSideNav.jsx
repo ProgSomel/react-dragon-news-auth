@@ -8,7 +8,7 @@ const RightSideNav = () => {
   return (
     <div>
       <div className='space-y-3 mb-6'>
-        <h2 className="text-2xl font-bold ">login with</h2>
+        <h2 className="text-xl font-bold ">login with</h2>
         <button className="btn btn-outline w-full text-blue-400">
         <FaGoogle></FaGoogle>
           Login with Google
