@@ -2,7 +2,7 @@ import { Outlet } from "react-router-dom";
 
 const MainLayouts = () => {
     return (
-        <div className="max-w-screen-2xl my-8 text-center mx-auto font-poppins">
+        <div className="max-w-screen-lg my-8  mx-auto font-poppins">
             <Outlet></Outlet>
         </div>
     );

@@ -2,11 +2,13 @@ import Header from "../Shared/Header/Header";
 import LeftSideNav from "../Shared/LeftSideNav/LeftSideNav";
 import Navbar from "../Shared/Navbar/Navbar";
 import RightSideNav from "../Shared/RightSideNav/RightSideNav";
+import BreakingNews from "./BreakingNews";
 
 const Home = () => {
     return (
-        <div>
+        <div className="">
             <Header></Header>
+            <BreakingNews></BreakingNews>
             <Navbar></Navbar>
             
 
